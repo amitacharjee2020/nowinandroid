@@ -1,0 +1,1343 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-063ZS77P7P"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-063ZS77P7P');
+</script>
+
+
+
+
+
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-THP6RN4');</script>
+<!-- End Google Tag Manager -->
+
+
+
+
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://kit.fontawesome.com/yourcode.js" crossorigin="anonymous"></script>
+  
+
+<link rel="stylesheet" href="css/style.css" />
+
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<script>
+$(document).ready(function(){
+  $("button").click(function(){
+    $("#box1").fadeIn();
+    $("#box2").fadeIn("slow");
+    $("#box3").fadeIn(3000);
+  });
+});
+</script>
+
+ <style>
+
+<!----Carousal----->
+
+
+
+<style>
+* {box-sizing: border-box}
+body {font-family: Verdana, sans-serif; margin:0}
+.mySlides {display: none}
+img {vertical-align: middle;}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -12px;
+  color: black;
+  font-weight: bold;
+  font-size: 20px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 50%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .prev, .next,.text {font-size: 11px}
+}
+</style>
+
+
+ <!---Navbar---->
+  <style>
+body,h1,h2,h3,h4,h5,h6 {font-family: calibri}
+
+body, html {
+  height: 100%;
+  line-height: 1.8;
+  background-color:teal;
+}
+
+/* Full height image header */
+.bgimg-1 {
+  background-position: center;
+  background-size: cover;
+  background-image: url("/w3images/mac.jpg");
+  min-height: 100%;
+}
+
+.w3-bar .w3-button {
+  padding: 8px 4px;
+}
+
+
+p {
+  text-align: center;
+  color: black;
+}
+
+
+
+ #myNavbar{
+ padding:1px 1px;
+ border:1px;
+ margin:1px;
+ background-color:white;
+ font-size:8px;
+
+ }   
+    
+
+</style>
+  
+ <!-------Search------->
+
+
+<!---Carousal---->
+<style>
+body {
+  font-family: Arial;
+  padding:10px 1px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+form.example input[type=text] {
+  padding: 10px;
+  font-size: 17px;
+  border: 1px solid grey;
+  float: left;
+  width: 100%;
+  background: #f1f1f1;
+}
+
+form.example button {
+  float: left;
+  width: 100%;
+  padding: 10px;
+  background: #2196F3;
+  color: white;
+  font-size: 17px;
+  border: 1px solid grey;
+  border-left: none;
+  cursor: pointer;
+}
+
+form.example button:hover {
+  background: #0b7dda;
+}
+
+form.example::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+</style>
+
+<style>
+div {
+ 
+  border: 1px solid #4CAF50;
+  margin:1px;
+  padding: 10px;
+  background: white;
+}
+
+</style>
+
+
+
+</head>
+<body>
+
+
+
+
+<!-- PushAlert -->
+<script type="text/javascript">
+        (function(d, t) {
+                var g = d.createElement(t),
+                s = d.getElementsByTagName(t)[0];
+                g.src = "https://cdn.pushalert.co/integrate_d8882fb23b1ce68bdba183f7c3baa2bd.js";
+                s.parentNode.insertBefore(g, s);
+        }(document, "script"));
+</script>
+<!-- End PushAlert -->
+
+
+
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-THP6RN4"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+
+<!-- Header with full-height image -->
+<header class="bgimg-1 w3-container w3-grayscale-min" id="home">
+ 
+
+
+<style> 
+/* Style the Sticky icons on web page */ 
+.stickyicon-list { 
+position: fixed;
+
+top: 300px; 
+transform: translateY(-50%);           
+}       
+.stickyicon-list a { 
+display: block; 
+text-align: center; 
+padding: 1px; 
+transition: all 0.5s ease; 
+color: white; 
+font-size: 20px; 
+}       
+/* HOver affect on sticky social media icons */ 
+.stickyicon-list a:hover { 
+color: #000; 
+width:2px; 
+} 
+ 
+/* Now we have to design each icon of social media */       
+.facebook { 
+background: #3b5998; 
+color: white;
+}       
+.twitter { 
+color: white; 
+background: #00acee; 
+} 
+.linkedin { 
+background: #0e76a8; 
+color: white; 
+}       
+.google { 
+color: white; 
+background: #db4a39; 
+} 
+.instagram { 
+background: #3f729b; 
+color: white; 
+}       
+.youtube { 
+color: white; 
+background: #c4302b;  
+} 
+</style> 
+
+
+<div class="stickyicon-list">
+<a href="https://www.facebook.com/amitacharjeesoftwaredeveloper" class="facebook"> 
+<i class="fa fa-facebook"></i> 
+</a> 
+<a href="#twitter" class="twitter"> 
+<i class="fa fa-twitter"></i> 
+</a>     
+<a href="#linkedin" class="linkedin"> 
+<i class="fa fa-linkedin"></i> 
+</a> 
+<a href="#google" class="google"> 
+<i class="fa fa-google"></i> 
+</a>   
+<a href="https://www.instagram.com/reels/CsBrXDNNrx_/" class="instagram"> 
+<i class="fa fa-instagram"></i> 
+</a>                            
+<a href="https://www.youtube.com/@amitkumaracharjee572" class="youtube"> 
+<i class="fa fa-youtube"></i> 
+</a> 
+</div> 
+
+
+
+
+ <div class="mt-2 p-5 w3-dodgerblue" style="font-family:calibri">
+<div class="jumbotron"style=" padding: 70px 1px; border:1px solid black; outline:1px; margin:1px solid blue; font-family:calibri; color:white; font-size: 18px">
+ 
+
+<ul class="nav nav-tabs" >
+<li class="active"><a data-toggle="tab"href="#menu1"  >About Us</a></li>
+
+<li><a data-toggle="tab" href="#menu2"   > Software Firm</a></li>
+
+<li><a data-toggle="tab" href="#menu3"   >SSC/HSC</a></li>
+<li><a data-toggle="tab" href="#menu4"   >IELTS/Spoken English</a></li>
+<li><a data-toggle="tab" href="#menu5"   >O Level/A Level</a></li>
+<li><a data-toggle="tab" href="#menu6"   > Corporate Law </a></li>
+<li><a data-toggle="tab" href="#menu7"   > ICT</a></li>
+<li><a data-toggle="tab" href="#menu8"   >Contact</a></li>
+</ul>
+  
+  <div class="tab-content" >
+   
+  <div id="menu1" class="tab-pane fade in active" style="background-color:black;color:yellow; font-family:calibri;font-size:12px" >
+ 
+  <p style="color:white; font-family:calibri; font-size:14px">We live in a competitive world. To gain sustainable competitive edge in the global competitive market we have focused on our core competences based on cloud based value delivery & value proposition. Technology is the building block to business success. </p>
+    
+  </div>
+  
+ 
+  <div id="menu2" class="tab-pane fade" style="background-color:black;color:white; font-family:calibri; font-size:14px">
+ 
+  <h3 style="color:white; font-family:calibri; font-size:14px" >JS Software & Technology</h3>
+  <p style="color:white; font-family:calibri; font-size:14px">Ours is a start-up business enterprize providing FinTech & Cloud services</p>
+<a class="active" href="jsstnew.html">Get started</a>
+  
+  </div>
+
+ 
+  <div id="menu3" class="tab-pane fade" style="background-color:black; color:white; font-family:calibri">
+ 
+ <h3>SSC English 1st Paper</h3>
+ <a class="active" href="ssceng1stpaper.html">  Get started</a>
+  <h3>SSC English 2nd Paper</h3>
+  <a class="active" href="ssceng2ndpaper.html">  Get started</a>
+  
+ 
+  <h3>HSC English 1st Paper</h3>
+  <a class="active" href="hsceng1stpaper.html">  Get started</a>
+  <h3>HSC English 2nd Paper</h3>
+ <a class="active" href="hsceng2ndpaper.html">  Get started</a>
+  </div>
+  
+  
+   <div id="menu4" class="tab-pane fade" style="background-color:black;color:white; font-family:calibri;font-size:14px">
+  
+  <h3>IELTS</h2>
+  
+   <a class="active" href="IELTS.html">  Get started</a> <br>
+
+ 
+ <h3>Spoken English</h2>
+	
+	
+  </div>
+  
+   <div id="menu5" class="tab-pane fade" style="background-color:black;color:white; font-family:calibri;font-size:14px">
+       
+   <h2 style="color:white; font-family:calibri; font-size:14px">O Level/A Level </h2>
+ <a href="https://igcse2009.com/igcse-english-language-b/2/?fbclid=IwAR07HYaw_CUS6xm-IZjRc4Xp-0dRzFdQvS4YBnA0uHm1GDg64nwggN8cKKA" style="color:white; font-family:calibri; font-size:14px" >English Language B </a> <br>
+ 
+	
+  </div>
+  
+  
+  <div id="menu6" class="tab-pane fade" style="background-color:black;color:blue; font-family:calibri;font-size:14px">
+  
+  <h2 style="color:white; font-family:calibri; font-size:14px">Corporate Consultancy</h2>
+
+	<a class="active" href="corporatelaw.html">  Get started</a>
+	
+  
+  </div>
+  
+  
+ <div id="menu7" class="tab-pane fade" style="background-color:black; color:white; font-family:calibri;font-size:14px">
+  
+  
+ <p style="color:white; font-family:calibri; font-size:14px" >1.FinTech</p>
+ <p style="color:white; font-family:calibri; font-size:14px" >2. Data Science</p>
+  </div>
+  
+   <div id="menu8" class="tab-pane fade" style="background-color:black; color:white; font-family:calibri;font-size:14px">
+  
+  
+ <p style="color:white; font-family:calibri; font-size:14px">Amit Kumar Acharjee<br> CEO & founder<br>Mob No. 01712878767</p>
+	
+</div>
+
+</div>
+
+<div class="w3-large w3-white" style="padding:8px 1px; border:1px solid blue">
+  
+   <h3> <marquee width="100%" direction="right" height="20px"> Esho Shikhi ( Let's learn) </marquee> </h3>
+
+    <h3> Legend English Academy</h3> 
+    <p style="font-family:calibri; color:black; font-size:16px">Legend English Academy is an ideal institute for learners interested in developing their life skills in peer-to-peer communication. We have a mission to develop both soft & life skills through effective & long term strategy of modern & sophisticated learning through one to one interactive communication. </p> 
+</div>
+
+</div>
+
+	<div class="w3-large">
+<button type="button" class="collapsible" style="font-size:16px; color:white; padding:5px; background-color:white; color:black;"  >Profile of the Founder</button>
+   
+
+	    <img src="amit.jpg" style="height:50px; width:40px;">
+     
+      <p style="color: black; font-family:calibri; font-size:16px; background-color:white; float:topleft;">Mr. Amit Kumar Acharjee, MA, MBA, LLB , ACCA ( Part-qualified) , CEO & Software Developer has been associated with multi-faceted socio-economic activities & is currently dedicated to  software development to equip our future generation with future skills-set through providing state-of-the art technological service & training. Mr. Acharjee has been relentlessly in his pursuit of ‘do something innovative’ motto & sincerely dedicated to transform your business.   Recently he has completed his training on PHP Zend, Java, etc as well as pursuing BSc in Computer Science ( IUBH-Germany).</p>
+
+    </div>
+
+
+
+<script>
+var coll = document.getElementsByClassName("collapsible");
+var i;
+
+for (i = 0; i < coll.length; i++) {
+  coll[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var content = this.nextElementSibling;
+    if (content.style.display === "block") {
+      content.style.display = "none";
+    } else {
+      content.style.display = "block";
+    }
+  });
+}
+</script>
+
+
+
+<div class="w3-half w3-right"  style="padding:60px 1px;">	
+
+<iframe width="500" height="300" src="https://www.youtube.com/embed/Ap5Ar5_Ljts" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</div>
+
+<style>
+.collapsible {
+  background-color:black;
+  color: white;
+  cursor: pointer;
+  padding: 10px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 20px;
+}
+
+.active, .collapsible:hover {
+  background-color: black;
+}
+
+.content {
+  padding: 0 18px;
+  display: none;
+  overflow: hidden;
+  background-color:white;
+}
+
+
+ 
+</style>
+
+ 
+</div>
+
+
+<div class="w3-half" style="padding: 5px; background-color:whhite; color:black;">
+    <h3>  Our Free Resources</h3>
+    
+    <a href="https://docs.google.com/presentation/d/1Q3-G3c6jNeYvWXKOX7OVP3Jt51lO3GQH9fN6H3rxeKU/edit?fbclid=IwAR1Q3psf4VMqNEoILGrRIoZ0ztVkQtLFhH7s_rxqJmPocoqACaqbw4dL73Q#slide=id.p">1. Visit our Virtual Library</a> <br>
+ <a href="https://online.fliphtml5.com/uzdbb/wsix/?fbclid=IwAR1uqMz0xtDVzse-wRy8RKN947QABx3-jACzRY1VHIlrYNQjww-EPqFJDGg#p=1">2.Visit for Paragraph</a> <br>
+ <a href="https://online.fliphtml5.com/uzdbb/urlj/?fbclid=IwAR19un0pp3mh7qaXj0NxIchg9JnIEQCuY1NVeuJdyrgjwh1LBt82tJZCQhY#p=1">3. Visit for Voice  </a> <br>
+ 
+ <a href="https://www.facebook.com/groups/2013745775432199">4.Join Legend English Academy online group <br> for class Eleven & Twelve</a> <br>
+  <a href="https://www.facebook.com/groups/785320462334579">5.Join Legend English Academy online group <br> for class Nine & Ten </a>
+    
+</div>
+
+
+
+
+
+</header>
+
+
+<!-- Navbar (sit on top) -->
+<div class="w3-top" style="font-family:calibri; color:white; background-color:black; font-size:30px; padding: 2px; ">
+    
+    <h4 style="font-family:calibri;">Esho Shikhi ( Let's learn) </h4> 
+    
+  <div class="w3-bar w3-white w3-large" id="myNavbar">
+    <a href="#home" class="w3-bar-item w3-button w3-wide"><img src="legendlogo.png"  style="height:40px; width:60px;"></a>
+    <!-- Right-sided navbar links -->
+    <div class="w3-center w3-hide-small">
+	
+	 <a href="#home" class="w3-bar-item w3-button">Home</a>
+   
+	
+      <span style="background-color:white; color:color;"><a href="#id01" class="w3-bar-item w3-button"><i class="fa fa-envelope"></i>Login</a></span>
+	  
+    </div>
+    </div>
+    <!-- Hide right-floated links on small screens and replace them with a menu icon -->
+
+    <a href="javascript:void(0)" class="w3-bar-item w3-button w3-right w3-hide-large w3-hide-medium" onclick="w3_open()">
+      <i class="fa fa-bars"></i>
+    </a>
+  </div>
+</div>
+
+<!-- Sidebar on small screens when clicking the menu icon -->
+<nav class="w3-sidebar w3-bar-block w3-black w3-card w3-animate-left w3-hide-medium w3-hide-large" style="display:none" id="mySidebar">
+  <a href="javascript:void(0)" onclick="w3_close()" class="w3-bar-item w3-button w3-large w3-padding-16">Close ×</a>
+  <a href="#about" onclick="w3_close()" class="w3-bar-item w3-button">Management</a>
+  <a href="#mgt" onclick="w3_close()" class="w3-bar-item w3-button">Resource persons</a>
+ 
+  
+  <a href="#pricing" onclick="w3_close()" class="w3-bar-item w3-button">Courses</a>
+   
+  <a href="#id01" onclick="w3_close()" class="w3-bar-item w3-button">Login</a>
+
+</nav>
+
+</div>
+
+
+<div class="w3-medium w3-bottom "  style="padding:2px 1px;">
+    
+  <div class="dropdown">
+    <button type="button" class="btn btn dropdown-toggle" data-bs-toggle="dropdown">
+      <h4 style="background-color:white; color:blue;">Know more about us</h4>
+     
+    </button>
+    <ul class="dropdown-menu">
+
+      <li><a class="dropdown-item" href="#about">Who we are</a></li>
+      <li><a class="dropdown-item" href="#faq">FAQ</a></li>
+      <li><a class="dropdown-item" href="#photo">Photo Gallery</a></li>
+	        
+			      <li><a class="dropdown-item" href="#webinar">Webinar</a></a></li>
+				       <li><a class="dropdown-item" href="#counciling">Counciling</a></li> 
+					         <li><a class="dropdown-item" href="#magazine">E-magazine</a></li>
+							       <li><a class="dropdown-item" href="#elibrary">E-library</a></li>
+	  
+    </ul>
+ 
+  
+</div>
+
+</div>
+
+
+
+<style>
+.collapsible {
+  background-color:black;
+  color: yellow;
+  cursor: pointer;
+  padding: 10px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+}
+
+.active, .collapsible:hover {
+  background-color:dodgerblue;
+}
+
+.content {
+  padding: 0 18px;
+  display: none;
+  overflow: hidden;
+  background-color:white;
+}
+
+
+ 
+</style>
+
+ 
+<div class="w3-container" style=" background-color:white;">
+
+<button type="button" class="collapsible" style="font-size:16px; color:white; padding:5px; background-color:white; color:black;"  ><h5>SS/HSC English Suggestion Exam-2023</h5></button>
+
+
+ <img src="liflet.png" style="height:250px; width:200px;>
+
+<div class="w3-third" style=" background-color:white;">
+
+<button type="button" class="collapsible">Get started : SSC Completing Story</button>
+<div class="content">
+
+
+</div>
+
+</div>
+
+
+
+<div class="w3-third" style=" background-color:white;">
+<button type="button" class="collapsible">Get started : SSC Letter/Email</button>
+<div class="content">
+1. Write a letter to your friend about the importance of computer education <br>
+2. Write a letter to your friend describing the bad effects of smoking.<br>
+3. Write a letter to your friend describing the importance of physical exercise.<br>
+4. Write a letter to your friend describing the climate change of Bangladesh<br>
+5. Suppose, you have a pen friend in abroad. He / She wanted to know about your
+country. Now, write a letter describing the natural beauty of Bangladesh or about your
+country.<br>
+6.Write a letter to your friend about your experience of the visit to a place of historical
+interest.<br>
+7. One of your friends has won the first prize in the essay competition. Now write a letter
+congratulating him or her achievement.<br>
+8. Write a letter to your father and tell him about your progress in studies.<br>
+9. write a letter to your friend telling him about your preparation for the examination.<br>
+10. Write a letter to your friend describing the picnic you have enjoyed.<br>
+11. Write a letter to your friend requesting him to spend the winter vacation.<br>
+12. Write a letter to your friend inviting him to join a picnic.<br>
+13. Write a letter to your friend how you have spent your winter vacation.<br>
+14. Write a letter to your friend how you have spent your summer vacation.<br>
+15 .Write a letter to your friend describing your village<br>
+16. Write a request letter to librarian to borrow books<br>
+17. .Write a letter to your friend describing the Independence Day of Bangladesh<br>
+18.. Write a letter to your friend describing your school<br>
+19. Write a letter to your friend describing yourself.<br>
+20. write a letter to your friend telling him about your preparation for the examination.<br>
+21. Write a letter to your friend inviting him to join a picnic.<br>
+22. Write a letter to your friend about the benefits of early rising in the morning.<br>
+23. Write a letter l to your friend inviting him to join your birthday party.<br>
+24. Write a letter to your friend telling him how you observed your last birthday.<br>
+25. Write a letter to your friend describing the importance of learning English.<br>
+
+ </div> 
+</div>
+
+
+
+<div class="w3-third " style=" background-color:white;">
+<button type="button" class="collapsible">Get started : SSC Dialogue  </button>
+<div class="content">
+
+<p>1.	Write a dialogue about road accident & how to prevent it.<br>
+2.	Write a dialogue about how to eradicate illiteracy from the country.<br>
+3.	Write a dialogue about the merits & demerits of using mobile phone<br>
+4.	Write a dialogue about the merits & demerits of using face book<br>
+5.	Write a dialogue about the importance /necessity of tree plantation<br>
+6.	Write a dialogue about your preparation for the ensuing examination<br>
+7.	Write a dialogue about the good effects of morning walk<br>
+8.	Write a dialogue about the importance of physical exercise<br>
+9.	Write a dialogue about the bad effects of smoking<br>
+10.	Write a dialogue about the advantages & disadvantages of city life & village life<br>
+11.	Write a dialogue about the importance of reading newspaper<br>
+12.	Write a dialogue about your aim in life<br>
+13.	Write a dialogue about your choice of profession<br>
+14.	Write a dialogue about the importance of learning English<br>
+15.	Write a dialogue about how to develop skills in English language<br>
+16.	Write a dialogue about the importance of learning computer<br>
+17.	Write a dialogue about the importance of education in the development of a nation<br>
+18.	Write a dialogue between a doctor & a patient about illness<br>
+19.	Write a dialogue between you & a librarian about borrowing a book<br>
+20.	 Write a dialogue between you & your science teacher about setting up a computer club<br>
+21.	Write a dialogue about the bad effects of copying in the exam<br>
+22.	Write a dialogue about the bad effects of deforestation/ natural calamities/ environment pollution<br>
+23.	Write a dialogue about the importance of ICT education in today’s life/ importance of multi-media class room<br>
+24.	Write a dialogue about how to do well in the exam<br>
+25.	Write a dialogue about the issue of transfer certificate<br>
+26.	Write a dialogue about the importance of games & sports in life<br>
+27.	Write a dialogue between you & your friend  about your hobbies<br>
+28.	Write a dialogue about the prize-giving ceremony of your school <br>
+29.	Write a dialogue about the bad effects of drug addiction<br>
+30.	Write a dialogue about food adulteration<br>
+31.	. Write a dialogue between you & you friend about an exciting football match.<br>	
+32.	32. Dialogue Between Two Friends on Importance of Punctuality <br>
+33.	33.Write a Dialogue between two friends about after coming out Examination Hall<br>
+34.	A Dialogue Between Two Friends on Exciting Cricket Match<br>
+35.	Write a dialogue between you and your friend about your future plan after the examination.<br>
+36.	Write a dialogue between you and your friend about the proper use of time 
+37.	A Dialogue About Opening a Bank Account<br> 
+38.	 Dialogue Between you & your friend on Issue of Climate Change<br>
+39.	Dialogue between two friends on a picnic enjoyed recently<br>
+40  Write a dialogue between two friends about an interesting book.<br>
+
+</p>
+  
+</div>
+
+</div>
+
+
+<div class="w3-third" style=" background-color:white;">
+
+<button type="button" class="collapsible">Get started :SSC 2nd paper Paragraph</button>
+<div class="content">
+
+<a class="active" href="ssceng2ndpaper.html"><p>1.A winter morning</a><br>
+2.Deforestation<br>
+3.	Environment pollution<br>
+4.	A day labourer<br>
+5.	Price-hike<br>
+6.	A rainy day<br>
+7.	Food adulteration<br>
+8.	A street hawker<br>
+9.	Traffic jam<br>
+10.	Load-shedding<br>
+11.	A school library<br>
+12.	A book fair<br>
+13.	Road accident<br>
+14.	National flag<br>
+15.	Drug addiction<br>
+16.	Climate change/<br> Global warming<br>
+17.	Tree plantation<br>
+18.	May Day<br>
+19.	Independence Day<br>
+20.	International Mother Language Day<br>
+21.	Pahela Boishakh<br>
+22.	A school magazine<br>
+23.	Life of a farmer<br>
+24.	A rainy day<br>
+25.	Early rising<br>
+26.	Uses & abuses of mobile phone<br>
+27.	A street beggar<br> </p>
+  
+</div>
+
+</div>
+
+<div class="w3-third " style=" background-color:white;">
+<button type="button" class="collapsible">Get started : SSC 2nd Paper Application  </button>
+<div class="content">
+
+<p>1. Application for increasing library facilities in the school.<br>
+2. Application for setting up a library in the school.<br>
+3. Application for setting up an English Language Club in the school<br>
+4. Application for financial help from the poor fund<br>
+5. Application for full free studentship<br>
+6. Application for opening a common room<br>
+7. Application for relief goods for the flood/cyclone-affected people<br>
+8. Application for providing multimedia facilities in the school.<br>
+9. Application for setting up a computer club in our school.<br>
+10. Application for leave of absence<br>
+11. Application for leave in advance.<br>
+12. Application for setting up a canteen in your school<br>
+13. Application for arranging a study tour<br>
+14. Application for permission to visit a place of historical interest<br>
+15. Application for remission of delay fine<br>
+16. Application for the construction of a bridge/road.<br>
+17. Application to the Headmaster of your school praying for TC.<br>
+18. Application to the Headmaster for Testimonial<br>
+19. Application to the Head teacher praying for a seat in the school hostel.<br>
+20. Application for a half -holiday<br>
+21. Application for increasing library facilities in the school.<br>
+22. Application to the Headmaster for changing school hours or for morning school.</p>
+  
+</div>
+
+</div>
+
+
+
+
+
+<div class="w3-third" style=" background-color:white;">
+<button type="button" class="collapsible">Get started : SSC Composition 
+ </button>
+<div class="content">
+
+<p>1.Digitalization of education.<br>
+2.Impacts of climate change.<br> *
+3.Favourite book. *<br>
+4.Urbanization in Bangladesh.<br>
+5.Price hike. **<br>
+6.Public exams and its impacts.<br>
+7.Tree plantation. *<br>
+8.First day at college. **<br>
+9.Students and social service.<br>
+10.Global warming/  Deforestation. *<br>
+11.Digital Bangladesh. *<br>
+12.Drug addiction.<br>
+13.Floods in Bangladesh. *<br>
+14.Refugee crisis. ***<br>
+15.Wonders of modern science. *<br>
+16.Childhood memories.<br>
+17.Patriotism.<br>
+18.Rivers in Bangladesh.<br>
+19.Rural developments at Bangladesh. *<br>
+20.Uses and abuses of mobile phone. *<br>
+21.Natural beauties of Bangladesh.<br>
+22.Season you like most.<br>
+23.Empowerment of women. **<br>
+24.Visit to a historical place.<br>
+25.Population problem of Bangladesh. **<br>
+26.Satellite TV. **<br>
+27.Female education.<br>
+28.ICT education. *<br>
+29.Childhood memories. *<br>
+30.Unemployment problems. *<br>
+31.Uses and abuses of internet. **<br>
+32.Value of time.<br>
+33.Importance of reading newspaper.<br>
+34.Journey by train. *<br>
+35.Cyber crimes throughout the world. ***<br>
+36.Rural and urban life. 
+
+</p>
+  
+</div>
+
+</div>
+
+
+
+
+
+<div class="w3-third" style=" background-color:white;">
+<button type="button" class="collapsible">Get started : HSC Completing Story</button>
+<div class="content">
+
+
+ </div> 
+</div>
+
+
+
+<div class="w3-third" style=" background-color:white;">
+<button type="button" class="collapsible">Get started : HSC English 1st paper Paragraph</button>
+<div class="content">
+
+<p>Descriptive Paragraph</p>
+<p>1.7th March Speech<br> 
+2.Human Rights<br>
+3.Food Adulteration<br>
+4.	Adolescence<br>
+5.	A Street Child<br>
+6.	Eco Tourism<br>
+7.	Civic Engagement<br>
+8.	Uses And Abuses of Facebook.<br>
+9.	Folk and modern music<br>
+10.	Eve-teasing. *<br>
+11.	Female Education. *<br>
+12.	Early marriage.<br>
+13.	Climate change/<br>Deforestation/<br>Green house effects. *<br>
+14.	Etiquette and manners. * <br>
+15.	Child labour.<br>
+16.	Traffic jam.<br>
+17.	Uses and abuses of mobile phone<br>
+18.	Diaspora* <br> 
+19.	Necessity of traffic education.<br>
+20.	International mother language day.<br>
+21.	Satellite TV channels<br>
+22.	 Book fair.<br>
+23.	Drug addiction.<br>
+24.	Internet.<br>
+25.	Environment pollution.</p> 
+  
+</div>
+
+</div>
+
+
+<div class="w3-third" style=" background-color:white;">
+<button type="button" class="collapsible">Get started : HSC  2nd paper Paragraph</button>
+<div class="content">
+
+<p>Descriptive Paragraph</p>
+<p>
+1.Uses And Abuses of Facebook.<br> 
+2.Uses and abuses of mobile phone<br>
+3.Internet<br>
+4.Human Rights<br>
+5.A Street Child<br>
+8.Uses And Abuses of Facebook.<br>
+9.Folk and modern music<br>
+10.Eve-teasing.*<br>
+11.Female Education. *<br>
+12.Early marriage.<br>
+13.Climate change<br>
+14.Deforestation<br>
+15.Green house effects. *<br>
+14.Etiquette and manners. *<br>
+15.	Child labour.<br>
+16.Traffic jam.<br>
+17Uses and abuses of mobile phone<br>
+18.Diaspora* <br> 
+19.Necessity of traffic education.</a><br>
+20.International mother language day.<br>
+21.Satellite TV channels<br>
+22.Book fair.<br>
+23.Drug addiction.<br>
+24.Internet.<br>
+25.Environment pollution.<br>
+Compare & Contrast Paragraph<br>
+1.	City life & Village life<br>
+2.	Online class & traditional class<br>
+3.	School life & college life<br>
+4.	Public university & Private university<br>
+5.	Folk music vs modern music<br>
+6.	Dream & Reality
+</p> 
+
+  
+</div>
+
+</div>
+
+
+
+<div class="w3-third" style=" background-color:white;">
+<button type="button" class="collapsible">Get started : HSC Letter/Email  </button>
+<div class="content">
+  
+  
+1. Write a letter to your friend about the importance of computer education <br>
+2. Write a letter to your friend describing the bad effects of smoking.<br>
+3. Write a letter to your friend describing the importance of physical exercise.<br>
+4. Write a letter to your friend describing the climate change of Bangladesh<br>
+5. Suppose, you have a pen friend in abroad. He / She wanted to know about your
+country. Now, write a letter describing the natural beauty of Bangladesh or about your
+country.<br>
+6.Write a letter to your friend about your experience of the visit to a place of historical
+interest.<br>
+7. One of your friends has won the first prize in the essay competition. Now write a letter
+congratulating him or her achievement.<br>
+8. Write a letter to your father and tell him about your progress in studies.<br>
+9. write a letter to your friend telling him about your preparation for the examination.<br>
+10. Write a letter to your friend describing the picnic you have enjoyed.<br>
+11. Write a letter to your friend requesting him to spend the winter vacation.<br>
+12. Write a letter to your friend inviting him to join a picnic.<br>
+13. Write a letter to your friend how you have spent your winter vacation.<br>
+14. Write a letter to your friend how you have spent your summer vacation.<br>
+15 .Write a letter to your friend describing your village<br>
+16. Write a request letter to librarian to borrow books<br>
+17. .Write a letter to your friend describing the Independence Day of Bangladesh<br>
+18.. Write a letter to your friend describing your school<br>
+19. Write a letter to your friend describing yourself.<br>
+20. write a letter to your friend telling him about your preparation for the examination.<br>
+21. Write a letter to your friend inviting him to join a picnic.<br>
+22. Write a letter to your friend about the benefits of early rising in the morning.<br>
+23. Write a letter l to your friend inviting him to join your birthday party.<br>
+24. Write a letter to your friend telling him how you observed your last birthday.<br>
+25. Write a letter to your friend describing the importance of learning English.<br>
+
+  
+</div>
+
+</div>
+
+
+ <div class="w3-third">
+<button type="button" class="collapsible">Get started : HSC Paragraph </button>
+<div class="content">
+<p>Descriptive Paragraph</p>
+<a href="#facebook"><p>1.Uses And Abuses of Facebook.</a><br> 
+<a href="#mobilephone">2.Uses and abuses of mobile phone</a><br>
+<a href="#internet">3.Internet.</a><br>
+<a href="#humanrights">4.Human Rights</a><br>
+<a href="streetchild">5.A Street Child</a><br>
+<a href="#eveteasing">6.Eve-teasing.</a> *<br>
+<a href="femaleeducation">7.Female Education.</a> *<br>
+<a href="earlymarriage">8.Early marriage.</a><br>
+<a href="#climatechange">9.Climate change</a><br>
+<a href="#deforestation">10.Deforestation</a><br>
+<a href="#greenhouseeffect">11.Green house effects.</a> *<br>
+<a href="#etiquette">12.Etiquette and manners.</a> *<br>
+<a href="#childlabour">13.Child labour.</a><br>
+<a href="#trafficjam">14.Traffic jam.</a><br>
+<a href="#mobilephone">15.Uses and abuses of mobile phone</a><br>
+<a href="#diaspora">16.Diaspora*</a> <br> 
+<a href="trafficeducation">17.Necessity of traffic education.</a><br>
+<a href="#motherlanguageday">18.International mother language day.</a><br>
+<a>19.21.Satellite TV channels</a><br>
+<a href="#bookfair">20.Book fair.</a><br>
+<a href="#drugaddiction">21.Drug addiction.</a><br>
+<a href="#internet">22.Internet.</a><br>
+<a href="#environmentpollution">23.Environment pollution.</a><br>
+Compare & Contrast Paragraph<br>
+1.	City life & Village life<br>
+2.	Online class & traditional class<br>
+3.	School life & college life<br>
+4.	Public university & Private university<br>
+5.	Folk music vs modern music<br>
+6.	Dream & Reality
+</p> 
+
+</div>
+
+</div>
+
+</div>
+
+
+
+
+
+<script>
+var coll = document.getElementsByClassName("collapsible");
+var i;
+
+for (i = 0; i < coll.length; i++) {
+  coll[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var content = this.nextElementSibling;
+    if (content.style.display === "block") {
+      content.style.display = "none";
+    } else {
+      content.style.display = "block";
+    }
+  });
+}
+</script>
+
+
+<!------Resource persons--->
+
+<div class="w3-container">
+<div class="w3-large   w3-display-bottom" style="background-color:white; text-align:center;" id="mgt" >
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  
+  <style>
+     
+.w3-container{
+
+background-color:white ;
+font-size: 18px;
+border: 1px solid black:
+hieght: 300px;
+color:black;
+
+}
+.post { background-color:black;
+font-size: 18px;
+border: 2px solid black:
+hieght: 250px;
+color:black;
+
+}
+.size{ font-style:calibri;
+font-size:18px'
+float:right;
+text-align:left;
+color:black; }
+    </style>
+  
+</head>
+
+<div  class="w3-large  w3-black>
+<div class="w3-large">
+   <h4 style="font-family:calibri;"> Resource persons</h4>
+   </div>
+
+<div class="container">
+<div class="post size paragraph">
+
+ <button type="button" class="btn btn-default" data-toggle="collapse" data-target="#demo">Amit Kumar Acharjee <br> MA, MBA, LLB</button>
+  <div id="demo" class="collapse">
+  
+ <img src="amit1.jpg" style="width:20%">
+    <p>Former English Teacher <br> Currently working as a software developer & English Trainer</p>
+  </div>
+ 
+  
+</div>
+
+
+<div class="post size">
+  <button type="button" class="btn btn-default" data-toggle="collapse" data-target="#demo1">Joyeeta Acharjee</button>
+  <div id="demo1" class="collapse">
+  
+      <img src="mumtahenapic/mumta1.jpg" style="width:20%">
+    <p>Student</p>
+  </div>
+  </div>
+
+
+</div>
+
+
+
+
+<style>
+div {
+  padding: 10px;
+  border: 1px solid #4CAF50;
+}
+</style>
+
+
+
+
+<div class="w3-large  w3-white " style="padding:100px 1px;"  id="faq">
+
+<style>
+.accordion {
+  background-color:black;
+  color: yellow;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 16px;
+  font-family:calibri;
+  transition: 0.4s;
+}
+
+.active, .accordion:hover {
+  background-color:dodgerblue; 
+}
+
+.panel {
+  padding: 0 18px;
+  display: none;
+  background-color:white;
+  color:black;
+  overflow: hidden;
+  font-size:16px;
+  font-family:calibri;
+}
+</style>
+
+
+<h4>Frequently Asked Questions</h4>
+
+<button class="accordion">1.What subject would you like to be enrolled?</button>
+<div class="panel">
+  <p>SSC/HSC English/IELTS/Spoken English/O Level/ A Level</p>
+</div>
+
+<button class="accordion">2.What is the course fee?</button>
+<div class="panel">
+  <p>Please check our course section</p>
+</div>
+
+<button class="accordion">3.Do you offer both off-line & online-courses?</button>
+<div class="panel">
+  <p>Yes,we offer both off-line & online-courses </p>
+</div>
+<button class="accordion">4.Do you  offer three modes of teaching?</button>
+<div class="panel">
+  <p>Yes</p>
+</div>
+<script>
+var acc = document.getElementsByClassName("accordion");
+var i;
+
+for (i = 0; i < acc.length; i++) {
+  acc[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var panel = this.nextElementSibling;
+    if (panel.style.display === "block") {
+      panel.style.display = "none";
+    } else {
+      panel.style.display = "block";
+    }
+  });
+}
+</script>
+
+
+<div class="w3-large  w3-white " style="padding:20px 1px;border:1px;margin:2px;"  id="id01">
+
+<div class="bg-img" style="font-size:16px" >
+  <form action="/action_page.php" class="container">
+    <h3>Login</h3>
+
+    <label for="email"><b>Email</b></label>
+    <input type="text" placeholder="Enter Email" name="email" required>
+
+    <label for="psw"><b>Password</b></label>
+    <input type="password" placeholder="Enter Password" name="psw" required>
+
+    <button type="submit" class="btn">Login</button>
+  </form>
+</div>
+
+</div>
+
+
+
+
+
+
+<div class="w3-container w3-left">
+<h4>Locate our office address</h4>
+
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3652.639843366216!2d90.41873801145731!3d23.724552189678356!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755b85031d81b77%3A0x331dd4b845570f10!2sRahman%20Chamber%2C%20Motijheel%20C%2FA%2C%2012-13%20Motijheel%20Rd%2C%20Dhaka%201000!5e0!3m2!1sen!2sbd!4v1682868523961!5m2!1sen!2sbd" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+
+
+</div>
+
+
+
+
+<!------Cookies-----!>
+
+<head>
+<script>
+function setCookie(cname,cvalue,exdays) {
+  const d = new Date();
+  d.setTime(d.getTime() + (exdays*24*60*60*1000));
+  let expires = "expires=" + d.toUTCString();
+  document.cookie = cname + "=" + cvalue + ";" + expires + ";path=/";
+}
+
+function getCookie(cname) {
+  let name = cname + "=";
+  let decodedCookie = decodeURIComponent(document.cookie);
+  let ca = decodedCookie.split(';');
+  for(let i = 0; i < ca.length; i++) {
+    let c = ca[i];
+    while (c.charAt(0) == ' ') {
+      c = c.substring(1);
+    }
+    if (c.indexOf(name) == 0) {
+      return c.substring(name.length, c.length);
+    }
+  }
+  return "";
+}
+
+function checkCookie() {
+  let user = getCookie("username");
+  if (user != "") {
+    alert("Welcome again " + user);
+  } else {
+     user = prompt("Please enter your name:","");
+     if (user != "" && user != null) {
+       setCookie("username", user, 30);
+     }
+  }
+}
+</script>
+</head>
+
+<body onload="checkCookie()"></body>
+
+</html>
+
+
+
+<!------Cookies-----!>
+
+
+
+
+
+<!----The End----->
+
+<div class="w3-large" style="font-size:16px; color:black; font-family:calibri; background-color:white;"> 
+
+<h3><span>Address</span><h3>
+  <p style="font-size:16px" ><span>JS Software & Technology </span><br><span>Rahman Chamber (9 th Floor), 12-13 Motijheel
+C/A, Dhaka-1000</span> </p>
+ 
+
+
+
+<a href="#" data-toggle="popover" title="Popover header" data-content="Some content inside the popover"><span>Topup</span></a> <br>
+	
+
+	
+</div>
+
+
+</body>
+</html>
+
+
+<!---The End----->
